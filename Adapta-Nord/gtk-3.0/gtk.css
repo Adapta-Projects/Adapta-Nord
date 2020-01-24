@@ -54,7 +54,7 @@ GtkAssistant .sidebar .label { padding: 0.7em 1em 0.8em; color: rgba(38, 50, 56,
 
 GtkAssistant .sidebar .label.highlight { color: #5E81AC; }
 
-GtkAssistant .header-bar .button.flat:not(:last-child) { background-color: #5E81AC; color: rgba(255, 255, 255, 0.87); }
+GtkAssistant .header-bar .button.flat:not(:last-child) { background-color: #5C81AC; color: rgba(255, 255, 255, 0.87); }
 
 GtkAssistant .header-bar .button.flat:not(:last-child):hover { color: #ECEFF4; }
 
@@ -479,7 +479,7 @@ GtkWindow .toolbar:not(.vertical):not(.inline-toolbar) { box-shadow: inset 0 1px
 
 GtkPaned .toolbar:not(.vertical):not(.inline-toolbar), GtkEventBox .toolbar:not(.vertical):not(.inline-toolbar), GtkGrid .toolbar.primary-toolbar:not(.vertical):not(.inline-toolbar) { box-shadow: none; }
 
-.osd .toolbar, .toolbar.osd, .app-notification, .app-notification.frame, .app-notification.flat, .app-notification.frame.flat, GeditViewFrame .gedit-search-slider { padding: 3px; border-style: solid; border-width: 9px; border-radius: 2px; border-image: -gtk-scaled(url("assets/osd-shadow.png"), url("assets/osd-shadow@2.png")) 10/10px stretch; color: #CFD8DC; background-color: #222d32; box-shadow: none; }
+.osd .toolbar, .toolbar.osd, .app-notification, .app-notification.frame, .app-notification.flat, .app-notification.frame.flat, GeditViewFrame .gedit-search-slider { padding: 3px; border-style: solid; border-width: 9px; border-radius: 2px; border-image: -gtk-scaled(url("assets/osd-shadow.png"), url("assets/osd-shadow@2.png")) 10/10px stretch; color: #CFD8DC; background-color: #2E3440; box-shadow: none; }
 
 .osd .toolbar .button, .toolbar.osd .button, .app-notification .button, .app-notification.frame .button, .app-notification.flat .button, GeditViewFrame .gedit-search-slider .button { background-color: transparent; }
 
@@ -523,7 +523,7 @@ GtkPaned .toolbar:not(.vertical):not(.inline-toolbar), GtkEventBox .toolbar:not(
 
 .search-bar .button.raised, .location-bar .button.raised { padding: 0.75em; border-radius: 100px; outline-radius: 100px; }
 
-.titlebar, .header-bar { -GtkPaned-handle-size: 0; padding: 0.4em; border-width: 1px 0 1px; border-style: solid; border-top-color: #29353b; border-bottom-color: rgba(0, 0, 0, 0.09); background-color: #222d32; background-clip: border-box; color: rgba(207, 216, 220, 0.87); }
+.titlebar, .header-bar { -GtkPaned-handle-size: 0; padding: 0.4em; border-width: 1px 0 1px; border-style: solid; border-top-color: #29353b; border-bottom-color: rgba(0, 0, 0, 0.09); background-color: #2E3440; background-clip: border-box; color: rgba(207, 216, 220, 0.87); }
 
 .titlebar *, .header-bar * { outline-style: none; outline-width: 0; outline-color: transparent; }
 
@@ -687,7 +687,7 @@ GtkPaned .toolbar:not(.vertical):not(.inline-toolbar), GtkEventBox .toolbar:not(
 
 .titlebar.selection-mode .selection-menu .arrow, .header-bar.selection-mode .selection-menu .arrow { -gtk-icon-source: -gtk-icontheme("pan-down-symbolic"); }
 
-.tiled .titlebar, .maximized .titlebar, .tiled .header-bar, .maximized .header-bar { border-top-color: #222d32; border-radius: 0; transition: none; }
+.tiled .titlebar, .maximized .titlebar, .tiled .header-bar, .maximized .header-bar { border-top-color: #2E3440; border-radius: 0; transition: none; }
 
 .titlebar.default-decoration, .header-bar.default-decoration { padding: 3px 2px 2px; border-width: 0; }
 
@@ -705,11 +705,11 @@ GtkPaned .toolbar:not(.vertical):not(.inline-toolbar), GtkEventBox .toolbar:not(
 
 .csd .header-bar, GtkBox .header-bar:only-child { box-shadow: 0 1px 1px rgba(0, 0, 0, 0.16), 0 1px 2px rgba(0, 0, 0, 0.26), 0 2px 3px rgba(0, 0, 0, 0.32); }
 
-GtkBox .header-bar:not(:only-child):first-child, GtkBox .header-bar:not(:only-child):last-child { border-left-color: #222d32; border-right-color: #222d32; }
+GtkBox .header-bar:not(:only-child):first-child, GtkBox .header-bar:not(:only-child):last-child { border-left-color: #2E3440; border-right-color: #2E3440; }
 
-GtkBox .header-bar:not(:only-child):last-child:dir(ltr) { box-shadow: 0 1px 1px rgba(0, 0, 0, 0.16), 0 1px 2px rgba(0, 0, 0, 0.26), 0 2px 3px rgba(0, 0, 0, 0.32), -5px 0 0 -1px #222d32, -2px 0 0 -1px rgba(0, 0, 0, 0.09); }
+GtkBox .header-bar:not(:only-child):last-child:dir(ltr) { box-shadow: 0 1px 1px rgba(0, 0, 0, 0.16), 0 1px 2px rgba(0, 0, 0, 0.26), 0 2px 3px rgba(0, 0, 0, 0.32), -5px 0 0 -1px #2E3440, -2px 0 0 -1px rgba(0, 0, 0, 0.09); }
 
-GtkBox .header-bar:not(:only-child):last-child:dir(rtl) { box-shadow: 0 1px 1px rgba(0, 0, 0, 0.16), 0 1px 2px rgba(0, 0, 0, 0.26), 0 2px 3px rgba(0, 0, 0, 0.32), 5px 0 0 -1px #222d32, 2px 0 0 -1px rgba(0, 0, 0, 0.09); }
+GtkBox .header-bar:not(:only-child):last-child:dir(rtl) { box-shadow: 0 1px 1px rgba(0, 0, 0, 0.16), 0 1px 2px rgba(0, 0, 0, 0.26), 0 2px 3px rgba(0, 0, 0, 0.32), 5px 0 0 -1px #2E3440, 2px 0 0 -1px rgba(0, 0, 0, 0.09); }
 
 GtkPaned .header-bar:not(:only-child):last-child:dir(ltr) { border-left: 1px solid black; }
 
@@ -805,7 +805,7 @@ GtkPaned column-header.button, GtkPaned column-header .button, GtkPaned column-h
 
 column-header.button.dnd, column-header .button.dnd { border-left-style: solid; color: #5E81AC; }
 
-.menubar { -GtkWidget-window-dragging: true; padding: 0; background-color: #222d32; }
+.menubar { -GtkWidget-window-dragging: true; padding: 0; background-color: #2E3440; }
 
 GtkWindow GtkWidget .menubar { color: rgba(207, 216, 220, 0.87); }
 
@@ -1765,7 +1765,7 @@ GtkScaleButton.button:checked:insensitive > .label, GtkVolumeButton.button:check
 
 GtkScaleButton.button.text-button, GtkVolumeButton.button.text-button { border-radius: 2px; outline-radius: 2px; }
 
-.floating-bar { padding: 0.1em 0 0.2em; border: 1px solid transparent; border-radius: 0; color: rgba(207, 216, 220, 0.87); background-color: #222d32; transition: none; }
+.floating-bar { padding: 0.1em 0 0.2em; border: 1px solid transparent; border-radius: 0; color: rgba(207, 216, 220, 0.87); background-color: #2E3440; transition: none; }
 
 .floating-bar .button { padding: 0.3em; margin: 0 0.3em; color: rgba(94, 129, 172, 0.5); }
 
@@ -1791,7 +1791,7 @@ GtkScaleButton.button.text-button, GtkVolumeButton.button.text-button { border-r
 
 .window-frame.ssd .titlebar { box-shadow: inset 0 1px #29353b; }
 
-.window-frame.ssd.tiled .titlebar, .window-frame.ssd.maximized .titlebar { border-top-color: #222d32; border-radius: 0; transition: none; }
+.window-frame.ssd.tiled .titlebar, .window-frame.ssd.maximized .titlebar { border-top-color: #2E3440; border-radius: 0; transition: none; }
 
 .window-frame.csd.popup { border-radius: 2px; box-shadow: 0 4px 5px rgba(0, 0, 0, 0.16), 0 4px 4px rgba(0, 0, 0, 0.2); }
 
@@ -1983,7 +1983,7 @@ NaTrayApplet { -NaTrayApplet-icon-padding: 0 2; -NaTrayApplet-icon-size: 16; }
 
 FlashbackOsdWindow, GfPopupWindow { border-radius: 2px; border: 1px solid rgba(0, 0, 0, 0.09); opacity: 0.9; }
 
-FlashbackOsdWindow.background, GfPopupWindow.background { background-color: #222d32; color: #CFD8DC; }
+FlashbackOsdWindow.background, GfPopupWindow.background { background-color: #2E3440; color: #CFD8DC; }
 
 GfInputSourcePopup #input-source { color: #CFD8DC; font-size: 2em; font-weight: 700; }
 
@@ -2143,7 +2143,7 @@ GeditViewFrame .gedit-search-slider .entry:insensitive, GeditViewFrame .gedit-se
 
 .gedit-side-panel-paned .pane-separator { background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.11) 2px, rgba(0, 0, 0, 0.05) 4px, rgba(0, 0, 0, 0.05)); background-position: left top; background-repeat: no-repeat; background-size: 1px auto; }
 
-GtkPaned.gedit-headerbar-paned.horizontal .pane-separator { background-color: #222d32; }
+GtkPaned.gedit-headerbar-paned.horizontal .pane-separator { background-color: #2E3440; }
 
 GeditStatusbar { padding: 0.2em; border-style: solid; border-width: 1px 0 0; border-color: rgba(0, 0, 0, 0.09); background-color: #ECEFF4; box-shadow: inset 0 1px 2px -1px rgba(0, 0, 0, 0.02), inset 0 2px 3px -2px rgba(0, 0, 0, 0.07); }
 
@@ -2159,7 +2159,7 @@ GbSourceStyleSchemeWidget GtkSourceView, GtkEntry.gb-command-bar-entry { font-fa
 
 GbTerminalView > GtkPaned > GtkScrolledWindow, GbTerminalView > GtkPaned > GtkScrolledWindow > VteTerminal { font-family: Monospace; font-weight: 500; font-size: 1em; }
 
-GbTerminalView { background-color: #222d32; color: #CFD8DC; }
+GbTerminalView { background-color: #2E3440; color: #CFD8DC; }
 
 GbSearchDisplayGroup GtkListBox .list-row, GbSearchDisplayGroup GtkListBox .tweak-category { transition: none; }
 
@@ -2201,7 +2201,7 @@ ContactsWindow ContactsListPane ContactsView .list-row.activatable:backdrop, Con
 
 ContactsWindow ContactsListPane ContactsView .separator { -GtkWidget-wide-separators: true; }
 
-TerminalScreen, TerminalWindow.background { background-color: #222d32; color: #ECEFF4; }
+TerminalScreen, TerminalWindow.background { background-color: #2E3440; color: #ECEFF4; }
 
 TerminalWindow .notebook.header.top { background-color: #263238; box-shadow: inset 0 2px 2px -3px rgba(0, 0, 0, 0.26), inset 0 5px 3px -5px rgba(0, 0, 0, 0.39), inset 0 -1px rgba(0, 0, 0, 0.09); }
 
@@ -2445,7 +2445,7 @@ GtkWindow > GtkBox.vertical > GtkBox.horizontal > GtkAlignment { background-colo
 @define-color error_color #F44336;
 @define-color success_color #00E676;
 @define-color link_color #5E81AC;
-@define-color wm_bg_a #222d32;
+@define-color wm_bg_a #2E3440;
 @define-color wm_bg_b #29353b;
 @define-color wm_bg_c #13191c;
 @define-color content_view_bg #ECEFF4;
