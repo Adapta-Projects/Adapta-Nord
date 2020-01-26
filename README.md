@@ -10,7 +10,7 @@ For users that not use use metacity WM, use the original Adapta window buttons, 
 
 # Instalation
 
-Put all files in /usr/share/themes (my preference) or in a folder of your own!
+For Debian and Ubuntu users, use the deb file in <a href="https://github.com/Joshaby/Adapta-Nord/releases">Adapta Releases</a>, otherwise, run the Install.sh file!
 
 # Images
 
