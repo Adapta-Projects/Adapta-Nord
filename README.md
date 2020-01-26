@@ -10,7 +10,7 @@ For users that not use use metacity WM, use the original Adapta window buttons, 
 
 # Instalation
 
-For Debian and Ubuntu users, use the deb file in <a href="https://github.com/Joshaby/Adapta-Nord/releases">Adapta Releases</a>, otherwise, run the Install.sh file!
+For Debian, Ubuntu or distribution based on them, use the deb file in <a href="https://github.com/Joshaby/Adapta-Nord/releases">Adapta Releases</a>, otherwise, run the Install.sh file!
 
 # Images
 
