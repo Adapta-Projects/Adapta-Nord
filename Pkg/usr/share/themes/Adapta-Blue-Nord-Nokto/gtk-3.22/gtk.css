@@ -7,9 +7,9 @@
   66% { background-image: radial-gradient(circle farthest-corner at center, alpha(currentColor, 0.12) 100%, transparent 0%), image(alpha(currentColor, 0.12)); }
   100% { background-image: radial-gradient(circle farthest-corner at center, alpha(currentColor, 0) 100%, transparent 0%), image(alpha(currentColor, 0.12)); } }
 
-entry, spinbutton:not(.vertical), entry.flat, spinbutton.flat:not(.vertical), .linked > entry, .linked.vertical > entry, combobox, combobox entry.combo, #MozillaGtkWidget.background > widget > entry { border: 1px solid #212B30; border-image: none; background-color: #2f3d44; color: rgba(207, 216, 220, 0.87); box-shadow: none; }
+entry, spinbutton:not(.vertical), entry.flat, spinbutton.flat:not(.vertical), .linked > entry, .linked.vertical > entry, combobox, combobox entry.combo, #MozillaGtkWidget.background > widget > entry { border: 1px solid #212B30; border-image: none; background-color: #2E3440; color: rgba(207, 216, 220, 0.87); box-shadow: none; }
 
-entry:focus, spinbutton:focus:not(.vertical), entry.flat:focus, spinbutton.flat:focus:not(.vertical), .linked > entry:focus, .linked.vertical > entry:focus, combobox entry.combo:focus, #MozillaGtkWidget.background > widget > entry:focus { border: 1px solid #5E81AC; border-image: none; background-color: #2f3d44; color: #CFD8DC; box-shadow: none; }
+entry:focus, spinbutton:focus:not(.vertical), entry.flat:focus, spinbutton.flat:focus:not(.vertical), .linked > entry:focus, .linked.vertical > entry:focus, combobox entry.combo:focus, #MozillaGtkWidget.background > widget > entry:focus { border: 1px solid #5E81AC; border-image: none; background-color: #2E3440; color: #CFD8DC; box-shadow: none; }
 
 entry:disabled, spinbutton:disabled:not(.vertical), entry.flat:disabled, spinbutton.flat:disabled:not(.vertical), .linked > entry:disabled, .linked.vertical > entry:disabled, combobox entry.combo:disabled, #MozillaGtkWidget.background > widget > entry:disabled { border: 1px solid #212B30; border-image: none; background-color: #2d393f; color: rgba(207, 216, 220, 0.28); box-shadow: none; }
 
@@ -37,7 +37,7 @@ button.flat:disabled, button.suggested-action.flat:disabled, button.destructive-
 
 button.flat:disabled > label, button.suggested-action.flat:disabled > label, button.destructive-action.flat:disabled > label, .inline-toolbar button:disabled > label, .inline-toolbar button.image-button:disabled > label, .inline-toolbar button.text-button:disabled > label, actionbar button:disabled > label, actionbar button.image-button:disabled > label, actionbar button.text-button:disabled > label, modelbutton.flat:disabled > label, menuitem button.flat:disabled > label, buttonbox:not(.linked) button:disabled > label, dialog.background buttonbox.dialog-action-area.linked button:disabled > label, popover.background.touch-selection button.image-button:disabled > label, popover.background.magnifier button.image-button:disabled > label, #notification-popup-window button.text-button:disabled > label, popover box.popover-action-area button:disabled > label, popover.messagepopover box.popover-content-area button:disabled > label, spinbutton:not(.vertical) button.down:disabled > label, spinbutton:not(.vertical) button.up:disabled > label, spinbutton.vertical button.up:disabled > label, spinbutton.vertical button.down:disabled > label, .background combobox button.combo:disabled > label, .background combobox button.combo:checked:disabled > label, .app-notification button:disabled > label, .gedit-bottom-panel-paned .gedit-search-slider button:disabled > label, .osd toolbar button:disabled > label, toolbar.osd button:disabled > label, .background toolbar button:disabled > label, actionbar box:not(.linked) > button.toggle:disabled > label, actionbar .linked > button.image-button:disabled > label, .titlebar button:not(.suggested-action):not(.destructive-action):disabled > label, headerbar button:not(.suggested-action):not(.destructive-action):disabled > label, popover.background .linked > button:disabled > label, calendar.button:disabled > label, calendar.header.button:disabled > label, placessidebar row button.image-button:disabled > label, .osd .scale-popup .vertical button:first-child:disabled > label, .scale-popup .vertical button:first-child:disabled > label, .osd .scale-popup .vertical button:last-child:disabled > label, .scale-popup .vertical button:last-child:disabled > label, .osd .scale-popup button:first-child:disabled > label, .scale-popup button:first-child:disabled > label, .osd .scale-popup button:last-child:disabled > label, .scale-popup button:last-child:disabled > label, list.tweak-group-startup row.activatable > grid > button:disabled > label, #gf-candidate-popup .linked > button:disabled > label, window.background > grid.vertical > box.vertical widget button:not(.suggested-action):disabled > label, window.background grid.math-buttons button:not(.suggested-action):disabled > label, layouttabbar box.horizontal > button:disabled > label, layouttabbar box.horizontal > button.popup.toggle:disabled > label, layouttab button:disabled > label, layouttab button.popup.toggle:disabled > label, layouttab > box > button.close:disabled > label, stack.view > calendar-view.year-view > box.vertical > button.text-button:disabled > label, .nemo-window grid.vertical > widget > box > button.image-button:disabled > label, button.flat:checked:disabled > label, .inline-toolbar button:checked:disabled > label, .inline-toolbar button.image-button:checked:disabled > label, .inline-toolbar button.text-button:checked:disabled > label, actionbar button:checked:disabled > label, actionbar button.image-button:checked:disabled > label, actionbar button.text-button:checked:disabled > label, modelbutton.flat:checked:disabled > label, menuitem button.flat:checked:disabled > label, buttonbox:not(.linked) button:checked:disabled > label, dialog.background buttonbox.dialog-action-area.linked button:checked:disabled > label, popover.background.touch-selection button.image-button:checked:disabled > label, popover.background.magnifier button.image-button:checked:disabled > label, #notification-popup-window button.text-button:checked:disabled > label, popover box.popover-action-area button:checked:disabled > label, popover.messagepopover box.popover-content-area button:checked:disabled > label, .background toolbar button:checked:disabled > label, actionbar box:not(.linked) > button.toggle:checked:disabled > label, actionbar .linked > button.image-button:checked:disabled > label, .titlebar button:not(.suggested-action):not(.destructive-action):checked:disabled > label, headerbar button:not(.suggested-action):not(.destructive-action):checked:disabled > label, .menu > arrow:checked:disabled > label, .context-menu > arrow:checked:disabled > label, menu > arrow:checked:disabled > label, popover.background .linked > button:checked:disabled > label, placessidebar row button.image-button:checked:disabled > label, window.background > grid.vertical > box.vertical widget button:not(.suggested-action):checked:disabled > label, window.background grid.math-buttons button:not(.suggested-action):checked:disabled > label, layouttabbar box.horizontal > button:checked:disabled > label, layouttabbar box.horizontal > button.popup.toggle:checked:disabled > label, layouttab button:checked:disabled > label, layouttab button.popup.toggle:checked:disabled > label, stack.view > calendar-view.year-view > box.vertical > button.text-button:checked:disabled > label, .nemo-window grid.vertical > widget > box > button.image-button:checked:disabled > label, #InkscapePanel box#PanelContents button.toggle:checked:disabled > label, #InkscapePanel box#PanelContents button.radio:checked:disabled > label, #InkscapePanel box#PaintSelector button.toggle:checked:disabled > label, #InkscapePanel box#PaintSelector button.radio:checked:disabled > label { color: inherit; }
 
-button, combobox button.combo, #MozillaGtkWidget.background > widget > button > button, #MozillaGtkWidget.background > widget > button.combo > button { border: 1px solid #212B30; background-color: #2f3d44; color: rgba(207, 216, 220, 0.87); box-shadow: none; }
+button, combobox button.combo, #MozillaGtkWidget.background > widget > button > button, #MozillaGtkWidget.background > widget > button.combo > button { border: 1px solid #212B30; background-color: #2E3440; color: rgba(207, 216, 220, 0.87); box-shadow: none; }
 
 button:hover, combobox button.combo:hover, #MozillaGtkWidget.background > widget > button > button:hover, #MozillaGtkWidget.background > widget > button.combo > button:hover { border: 1px solid #212B30; background-color: #35434a; color: #CFD8DC; box-shadow: none; }
 
@@ -248,7 +248,7 @@ entry > window.background:not(.csd) treeview.view:selected { background-color: a
 
 button { min-height: 1rem; min-width: 2.5rem; padding: 0.7rem 1rem 0.8rem; border-radius: 2px; -gtk-outline-radius: 2px; background-repeat: no-repeat; background-position: center, center; font-weight: 500; }
 
-.background button { background-color: #2f3d44; color: rgba(207, 216, 220, 0.87); border: none; }
+.background button { background-color: #2E3440; color: rgba(207, 216, 220, 0.87); border: none; }
 
 .background button:hover { color: #CFD8DC; }
 
@@ -940,7 +940,7 @@ headerbar.selection-mode button:checked:disabled, headerbar.selection-mode butto
 
 headerbar.selection-mode button:checked:disabled > label, headerbar.selection-mode button.image-button:checked:disabled > label { color: inherit; }
 
-headerbar.selection-mode button.suggested-action, headerbar.selection-mode button.image-button.suggested-action { background-color: #2f3d44; color: rgba(207, 216, 220, 0.87); }
+headerbar.selection-mode button.suggested-action, headerbar.selection-mode button.image-button.suggested-action { background-color: #2E3440; color: rgba(207, 216, 220, 0.87); }
 
 headerbar.selection-mode button.suggested-action:hover, headerbar.selection-mode button.image-button.suggested-action:hover { color: #CFD8DC; }
 
@@ -1144,7 +1144,7 @@ treeview.view header button, treeview.view header button:hover, treeview.view he
 
 .menu, .context-menu, menu { font: initial; }
 
-.menu, .solid-csd.popup .menu, .context-menu, .solid-csd.popup .context-menu, menu, .solid-csd.popup menu { padding: 0.3rem 1px; border-radius: 0; border-width: 1px; border-style: solid; border-color: #212B30; background-color: #28343a; }
+.menu, .solid-csd.popup .menu, .context-menu, .solid-csd.popup .context-menu, menu, .solid-csd.popup menu { padding: 0.3rem 1px; border-radius: 0; border-width: 1px; border-style: solid; border-color: #212B30; background-color: #2E3440; }
 
 .csd.popup .menu, .csd.popup .context-menu, .csd.popup menu { margin: 0.3rem 0; padding: 0.3rem 0; border-radius: 2px; border-width: 1px 0 0; border-style: solid none none; border-color: #2c383e transparent transparent; }
 
@@ -1162,7 +1162,7 @@ treeview.view header button, treeview.view header button:hover, treeview.view he
 
 .menu menuitem label:dir(rtl), .menu menuitem label:dir(ltr), .menu menuitem arrow:dir(rtl), .menu menuitem arrow:dir(ltr), .context-menu menuitem label:dir(rtl), .context-menu menuitem label:dir(ltr), .context-menu menuitem arrow:dir(rtl), .context-menu menuitem arrow:dir(ltr), menu menuitem label:dir(rtl), menu menuitem label:dir(ltr), menu menuitem arrow:dir(rtl), menu menuitem arrow:dir(ltr) { color: inherit; }
 
-.menu > arrow, .context-menu > arrow, menu > arrow { min-height: 1.2rem; min-width: 1.2rem; padding: 0.3rem; border-style: none; border-radius: 0; color: rgba(207, 216, 220, 0.87); background-color: #28343a; }
+.menu > arrow, .context-menu > arrow, menu > arrow { min-height: 1.2rem; min-width: 1.2rem; padding: 0.3rem; border-style: none; border-radius: 0; color: rgba(207, 216, 220, 0.87); background-color: #2E3440; }
 
 .menu > arrow:hover, .context-menu > arrow:hover, menu > arrow:hover { color: #CFD8DC; background-color: #2E3440; }
 
@@ -1196,7 +1196,7 @@ window.popup, window.popup.solid-csd { border-radius: 0; }
 
 window.popup.csd { border-radius: 2px; }
 
-#IBusCandidate { border: 1px solid rgba(0, 0, 0, 0.13); background-color: #28343a; box-shadow: inset 0 1px #2c383e; }
+#IBusCandidate { border: 1px solid rgba(0, 0, 0, 0.13); background-color: #2E3440; box-shadow: inset 0 1px #2c383e; }
 
 #IBusCandidate > box > label { color: rgba(207, 216, 220, 0.54); }
 
@@ -1206,9 +1206,9 @@ window.popup.csd { border-radius: 2px; }
 
 #IBusCandidate button.flat.image-button { margin: 0.3rem; }
 
-#IBusHandle { background-image: image(#28343a); }
+#IBusHandle { background-image: image(#2E3440); }
 
-popover.background { padding: 0; background-color: #28343a; box-shadow: 0 4.5px 5.5px rgba(0, 0, 0, 0.38); }
+popover.background { padding: 0; background-color: #2E3440; box-shadow: 0 4.5px 5.5px rgba(0, 0, 0, 0.38); }
 
 popover.background:backdrop { box-shadow: 0 1px 2px rgba(0, 0, 0, 0.28); }
 
@@ -1218,7 +1218,7 @@ popover.background.menu > stack { margin: -4px -6px -6px; }
 
 popover.background.menu separator.horizontal { margin-top: 0.3rem; margin-bottom: 0.3rem; }
 
-.csd popover.background, popover.background { border-width: 1px; border-style: solid; border-radius: 0; border-color: rgba(0, 0, 0, 0.065) #28343a #28343a; border-image: linear-gradient(to bottom, #2c383e 1px, #28343a, #28343a 1px) 1/1px stretch; }
+.csd popover.background, popover.background { border-width: 1px; border-style: solid; border-radius: 0; border-color: rgba(0, 0, 0, 0.065) #2E3440 #2E3440; border-image: linear-gradient(to bottom, #2c383e 1px, #2E3440, #2E3440 1px) 1/1px stretch; }
 
 popover.background > list, popover.background > .view, popover.background > toolbar, popover.background.osd > toolbar { border-style: none; border-image: none; background-color: transparent; }
 
@@ -3014,7 +3014,7 @@ notebook > stack > box.vertical > paned.vertical > overlay > .floating-bar { col
 
 .background headerbar entry.starred > image.right:hover, .background headerbar entry.starred > image.right:active, .background headerbar entry.starred > image.right:checked { color: #FFEA00; }
 
-popover.background:not(.emoji-picker) > box.vertical > scrolledwindow > viewport.frame > list.background { background-color: #28343a; }
+popover.background:not(.emoji-picker) > box.vertical > scrolledwindow > viewport.frame > list.background { background-color: #2E3440; }
 
 popover.background:not(.emoji-picker) > box.vertical > stack > box.vertical scrolledwindow > viewport.frame { border: 1px solid rgba(0, 0, 0, 0.13); }
 
@@ -4118,9 +4118,9 @@ window.background.chromium.maximized headerbar.titlebar button.titlebutton.maxim
 
 #MozillaGtkWidget.background headerbar.titlebar.default-decoration button.titlebutton { min-width: 24px; min-height: 24px; }
 
-#MozillaGtkWidget.background > window.background > menu { border: unset; background-color: #28343a; }
+#MozillaGtkWidget.background > window.background > menu { border: unset; background-color: #2E3440; }
 
-#MozillaGtkWidget.background > window.background > menu > separator { padding: 3px 0 4px; border-top: 3px solid #28343a; border-bottom: 4px solid #28343a; background-color: #212B30; }
+#MozillaGtkWidget.background > window.background > menu > separator { padding: 3px 0 4px; border-top: 3px solid #2E3440; border-bottom: 4px solid #2E3440; background-color: #212B30; }
 
 #MozillaGtkWidget.background > window.background > menu > menuitem > radio:checked { -gtk-icon-source: -gtk-scaled(url("assets/radio-checked-dark.png"), url("assets/radio-checked-dark@2.png")); }
 
@@ -4242,13 +4242,13 @@ window#Emacs24 widget#emacs24 > widget > scrollbar.vertical slider { min-width: 
 
 window#Emacs24 widget#emacs24 > widget > scrollbar, window#Emacs24 widget#emacs24 > widget > scrollbar * { transition: none; }
 
-window.popup:not(.csd) menu { background-color: #28343a; }
+window.popup:not(.csd) menu { background-color: #2E3440; }
 
-window.popup:not(.csd) menu menuitem { background-color: #28343a; color: #b9c3c7; }
+window.popup:not(.csd) menu menuitem { background-color: #2E3440; color: #b9c3c7; }
 
 window.popup:not(.csd) menu menuitem:hover { background-color: #3c484d; color: #CFD8DC; }
 
-window.popup:not(.csd) menu menuitem:disabled { background-color: #28343a; color: #273339; }
+window.popup:not(.csd) menu menuitem:disabled { background-color: #2E3440; color: #273339; }
 
 window.popup:not(.csd) menu menuitem:disabled label, window.popup:not(.csd) menu menuitem:disabled arrow { color: #576267; }
 
@@ -4310,7 +4310,7 @@ window.background.chromium button { border-width: 1px; border-style: solid; bord
 
 window.background.chromium entry.chromium, window.background.chromium entry.chromium:focus { border-image: none; border: 1px solid rgba(0, 0, 0, 0.13); }
 
-window.background.chromium > textview.view { background-color: #2f3d44; }
+window.background.chromium > textview.view { background-color: #2E3440; }
 
 headerbar > box.horizontal.linked > button.toggle.session-sidebar-button { min-height: 16px; padding-top: 0.7rem; padding-bottom: 0.7rem; border-radius: 2px; -gtk-outline-radius: 2px; font-weight: 700; }
 
@@ -4374,7 +4374,7 @@ notebook.tilix-background tab.reorderable-page button.tilix-small-button > widge
 
 notebook.psppire-data-editor widget.view { border-radius: 0; }
 
-notebook.psppire-data-editor widget.view entry, notebook.psppire-data-editor widget.view entry:focus { min-width: unset; min-height: unset; padding: 0 2px; border-image: none; border-color: #5E81AC; background-color: #2f3d44; transition: none; }
+notebook.psppire-data-editor widget.view entry, notebook.psppire-data-editor widget.view entry:focus { min-width: unset; min-height: unset; padding: 0 2px; border-image: none; border-color: #5E81AC; background-color: #2E3440; transition: none; }
 
 notebook.psppire-data-editor widget.view entry:dir(ltr), notebook.psppire-data-editor widget.view entry:focus:dir(ltr) { border-left-width: 2px; }
 
@@ -4435,7 +4435,7 @@ window#GeanyMainWindow paned.vertical paned.horizontal > notebook.frame { border
 @define-color theme_selected_fg_color #FFFFFF;
 @define-color insensitive_bg_color #2E3440;
 @define-color insensitive_fg_color rgba(207, 216, 220, 0.28);
-@define-color insensitive_base_color #28343a;
+@define-color insensitive_base_color #2E3440;
 @define-color theme_unfocused_fg_color rgba(207, 216, 220, 0.28);
 @define-color theme_unfocused_inverted_fg_color rgba(207, 216, 220, 0.4);
 @define-color theme_unfocused_text_color rgba(207, 216, 220, 0.28);

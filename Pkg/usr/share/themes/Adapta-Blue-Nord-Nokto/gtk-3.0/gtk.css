@@ -821,7 +821,7 @@ GtkWindow GtkWidget .menubar { color: rgba(207, 216, 220, 0.87); }
 
 .menubar > .menuitem:insensitive > .label { color: rgba(207, 216, 220, 0.28); }
 
-.menu { margin: 4px 0; padding: 4px 0; border-width: 1px; border-style: solid; border-color: #2c383e transparent transparent; background-color: #28343a; }
+.menu { margin: 4px 0; padding: 4px 0; border-width: 1px; border-style: solid; border-color: #2c383e transparent transparent; background-color: #2E3440; }
 
 .csd .menu { border-width: 1px; border-radius: 2px; border-color: #2c383e transparent transparent; }
 
@@ -843,7 +843,7 @@ GtkWindow GtkWidget .menubar { color: rgba(207, 216, 220, 0.87); }
 
 .menu .menuitem.arrow:dir(rtl) { -gtk-icon-source: -gtk-icontheme("pan-end-symbolic-rtl"); }
 
-.menu.button { border-style: none; border-radius: 0; background-color: #28343a; }
+.menu.button { border-style: none; border-radius: 0; background-color: #2E3440; }
 
 .menu.button:hover { background-color: #2E3440; }
 
@@ -863,7 +863,7 @@ GtkWindow GtkWidget .menubar { color: rgba(207, 216, 220, 0.87); }
 
 .csd.popup { border-radius: 2px; }
 
-.popover { padding: 2px; border: 1px solid; border-color: #2c383e #28343a #28343a; border-radius: 2px; background-color: #28343a; box-shadow: 0 4px 5px rgba(0, 0, 0, 0.16), 0 4px 4px rgba(0, 0, 0, 0.2); }
+.popover { padding: 2px; border: 1px solid; border-color: #2c383e #2E3440 #2E3440; border-radius: 2px; background-color: #2E3440; box-shadow: 0 4px 5px rgba(0, 0, 0, 0.16), 0 4px 4px rgba(0, 0, 0, 0.2); }
 
 .popover:backdrop { box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.16); }
 
@@ -2429,7 +2429,7 @@ GtkWindow > GtkBox.vertical > GtkBox.horizontal > GtkAlignment { background-colo
 @define-color theme_selected_fg_color #FFFFFF;
 @define-color insensitive_bg_color #2E3440;
 @define-color insensitive_fg_color rgba(207, 216, 220, 0.28);
-@define-color insensitive_base_color #28343a;
+@define-color insensitive_base_color #2E3440;
 @define-color theme_unfocused_fg_color rgba(207, 216, 220, 0.28);
 @define-color theme_unfocused_inverted_fg_color rgba(207, 216, 220, 0.4);
 @define-color theme_unfocused_text_color rgba(207, 216, 220, 0.28);
