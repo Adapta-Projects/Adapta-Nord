@@ -445,7 +445,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .menu-favorites-button { padding: 10px; }
 
-.menu-favorites-button:hover { border-color: transparent; color: #CFD8DC; background-color: rgba(207, 216, 220, 0.12); box-shadow: 0 0 transparent; text-shadow: none; icon-shadow: none; }
+.menu-favorites-button:hover { border-color: transparent; color: #CFD8DC; background-color: rgba(94, 129, 172, 0.5); border-radius: 8px; box-shadow: 0 0 transparent; text-shadow: none; icon-shadow: none; }
 
 .menu-places-box { padding: 7px; }
 
@@ -463,7 +463,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .menu-application-button:highlighted { font-weight: 700; }
 
-.menu-application-button-selected { border-color: transparent; color: #CFD8DC; background-color: rgba(207, 216, 220, 0.12); box-shadow: 0 0 transparent; text-shadow: none; icon-shadow: none; padding: 0 7px; border: 1px solid transparent; }
+.menu-application-button-selected { border-color: transparent; color: #CFD8DC; background-color: rgba(94, 129, 172, 0.5); box-shadow: 0 0 transparent; text-shadow: none; icon-shadow: none; padding: 0 7px; border-radius: 8px; border: 1px solid transparent; }
 
 .menu-application-button-selected:highlighted { font-weight: 700; }
 
@@ -489,7 +489,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active { backg
 
 .menu-category-button { padding: 0 7px; border: 1px solid transparent; color: rgba(207, 216, 220, 0.87); }
 
-.menu-category-button-hover, .menu-category-button-selected { padding: 0 7px; border-radius: 2px; border: 1px solid transparent; background-color: rgba(94, 129, 172, 0.5); color: #5E81AC; }
+.menu-category-button-hover, .menu-category-button-selected { padding: 0 7px; border-radius: 8px; border: 1px solid transparent; background-color: rgba(94, 129, 172, 0.5); color: #ECEFF4; }
 
 .menu-category-button-greyed { padding: 0 7px; border: 1px solid transparent; color: rgba(207, 216, 220, 0.28); }
 

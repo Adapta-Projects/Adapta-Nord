@@ -12,7 +12,7 @@
 
 * { padding: 0; background-clip: padding-box; -GtkToolButton-icon-spacing: 4; -GtkTextView-error-underline-color: #F44336; -GtkCheckButton-indicator-size: 16; -GtkCheckMenuItem-indicator-size: 16; -GtkScrolledWindow-scrollbar-spacing: 0; -GtkScrolledWindow-scrollbars-within-bevel: 1; -GtkToolItemGroup-expander-size: 11; -GtkExpander-expander-size: 16; -GtkMenu-horizontal-padding: 0; -GtkMenu-vertical-padding: 0; -GtkWidget-link-color: #5E81AC; -GtkWidget-visited-link-color: #b06ec2; -GtkWidget-text-handle-width: 16; -GtkWidget-text-handle-height: 16; -GtkDialog-button-spacing: 4; -GtkDialog-action-area-border: 0; -GtkStatusbar-shadow-type: none; outline-style: solid; outline-width: 2px; outline-color: alpha(currentColor, 0.2); outline-offset: -4px; outline-radius: 2px; text-shadow: none; icon-shadow: none; }
 
-.background { background-color: #2E3440; color: #CFD8DC; }
+.background { background-color: #2; color: #CFD8DC; }
 
 *:insensitive { -gtk-image-effect: dim; }
 
