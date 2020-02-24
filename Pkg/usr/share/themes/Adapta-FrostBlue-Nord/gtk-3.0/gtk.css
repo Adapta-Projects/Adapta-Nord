@@ -18,7 +18,7 @@
 
 .header-bar:backdrop > * { opacity: 0.4; transition: 0.2s; }
 
-.gtkstyle-fallback { background-color: #ECEFF4; color: rgba(38, 50, 56, 0.87); }
+.gtkstyle-fallback { background-color: rgba(94, 129, 172, 0.5); color: rgba(38, 50, 56, 0.87); }
 
 .gtkstyle-fallback:hover { background-color: #e1e3e4; color: #263238; }
 
