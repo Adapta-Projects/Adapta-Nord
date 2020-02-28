@@ -6,8 +6,8 @@ Encoding=UTF-8
 
 [X-GNOME-Metatheme]
 Type=X-GNOME-Metatheme
-GtkTheme=Adapta-Nokto
-MetacityTheme=Adapta
+GtkTheme=Adapta-FrostBlue-Nord-Nokto
+MetacityTheme=Adapta-FrostBlue-Nord-Nokto
 IconTheme=Adwaita
 CursorTheme=Adwaita
 CursorSize=24
