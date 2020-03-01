@@ -1,18 +1,20 @@
 # Adapta-Nord
 
-This theme is mod made from the Adapta Cyan made by me, still in beta! It may contain colors that have not been modified! There will also be nokto versions of this theme!
+Nord version of <a href="https://github.com/Joshaby/Adapta-Colorpack">Adapta Theme</a>! This theme is a fork of Adapta Cyan modified by me!
+
+Still in beta!
 
 This theme's colors come from the Nord pallete made by <a href="https://github.com/arcticicestudio/nord">Arctic Ice Studio</a>!
 
-The wallpaper of the image comes with the theme, and is in the Wallpapers folder in the theme folder!
+## Available colors (in light and nokto versions)
 
-For users that not use use metacity WM, use the original Adapta window buttons, it was not possible to harmonize with the design of the metacity window buttons on gtk-3.0 and gtk-3.22!
+ - Frost Blue
 
-# Instalation
+## Instalation
 
 For Debian, Ubuntu or distribution based on them, use the deb file in <a href="https://github.com/Joshaby/Adapta-Nord/releases">Adapta Releases</a>, otherwise, run the Install.sh file!
 
-# Images
+## Images
 
 ![image](Images/image.png)
 
@@ -21,3 +23,7 @@ For Debian, Ubuntu or distribution based on them, use the deb file in <a href="h
 ![image](Images/image2.png)
 
 ![image](Images/image3.png)
+
+## License
+
+GNU GPL v2
