@@ -1,14 +1,10 @@
 # Adapta-Nord
 
-Nord version of <a href="https://github.com/Joshaby/Adapta-Colorpack">Adapta Theme</a>! This theme is a fork of Adapta Cyan modified by me!
-
-Still in beta!
-
-This theme's colors come from the Nord pallete made by <a href="https://github.com/arcticicestudio/nord">Arctic Ice Studio</a>!
+Nord version of <a href="https://github.com/Joshaby/Adapta-Colorpack">Adapta Theme</a>!
 
 ## Available colors (in light and nokto versions)
 
- - Frost Blue
+ - Frost Blue 4
 
 ## Instalation
 
@@ -23,6 +19,8 @@ For Debian, Ubuntu or distribution based on them, use the deb file in <a href="h
 ![image](Images/image2.png)
 
 ![image](Images/image3.png)
+
+This theme's colors come from the Nord pallete made by <a href="https://github.com/arcticicestudio/nord">Arctic Ice Studio</a>!
 
 ## License
 
