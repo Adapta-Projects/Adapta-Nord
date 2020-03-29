@@ -1,6 +1,15 @@
-# Adapta-Nord
+<img src="Images/logo.png" alt="Logo" align="right" /> Adapta Nord
+=====
+![image](Images/image5.png)
+Nord version of <a href="https://github.com/Joshaby/Adapta-Colorpack">Adapta Colorpack</a>!
 
-Nord version of <a href="https://github.com/Joshaby/Adapta-Colorpack">Adapta Theme</a>!
+## Suported DEs
+ - Xfce4
+ - Cinnamon
+ - Mate
+ - Gnome
+ - Budgie
+ - LXDE
 
 ## Available colors (in light and nokto versions)
 

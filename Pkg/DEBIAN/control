@@ -1,9 +1,9 @@
 Package: Adapta-Nord
-Version: 202002202226
+Version: 202003290055
 Architecture: all
 Maintainer: none
 Depends: gtk2-engines-pixbuf (>= 2.24.30), gtk2-engines-murrine (>= 0.98.1), libgtk2.0-common (>= 2.24.30), libgtk-3-common (>= 3.20.0)
 Section: x11
 Priority: optional
 Homepage: https://github.com/Joshaby/Adapta-Nord
-Description: Nordic version of the Adapta Gtk+ theme! The theme is still in beta!
+Description: Nordic version of the Adapta Gtk+ theme!
