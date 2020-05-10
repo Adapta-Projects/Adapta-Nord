@@ -13,9 +13,9 @@ Nord version of <a href="https://github.com/Joshaby/Adapta-Colorpack">Adapta Col
 
 ## Suported DEs
  - Xfce4
- - Cinnamon
+ - <a href="Markdown/Cinnamon/Cinnamon.md">Cinnamon</a>
  - Mate
- - Gnome
+ - <a href="Markdown/Gnome/Gnome.md">Gnome</a>
  - Budgie
  - LXDE
 
@@ -29,17 +29,9 @@ Nord version of <a href="https://github.com/Joshaby/Adapta-Colorpack">Adapta Col
 
 For Debian, Ubuntu or distribution based on them, use the deb file in <a href="https://github.com/Joshaby/Adapta-Nord/releases">Adapta Releases</a>, otherwise, run the Install.sh file!
 
-## Images
+## Note
 
-![image](Images/image.png)
-
-![image](Images/image2.png)
-
-![image](Images/image3.png)
-
-![image](Images/image4.png)
-
-![image](Images/image6.png)
+The wallpapers displayed in the screenshots of the available interfaces are in the Wallpapers folder
 
 This theme's colors come from the Nord pallete made by <a href="https://github.com/arcticicestudio/nord">Arctic Ice Studio</a>!
 
