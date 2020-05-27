@@ -37,7 +37,7 @@
 }
 
 .tasklist>*>box {
-  color: #FAFBFC;
+  color: #ECEFF4;
 }
 
 .tasklist .toggle {
@@ -54,14 +54,14 @@
 }
 
 .xfce4-panel button, .xfce4-panel button.flat, .xfce4-panel.panel button, .xfce4-panel.panel button.flat {
-  color: #FAFBFC;
+  color: #ECEFF4;
   border-radius: 0;
   border: none;
   background-color: transparent;
 }
 
 .xfce4-panel button:hover:not(:active):not(:checked), .xfce4-panel button:checked {
-  color: #FAFBFC;
+  color: #ECEFF4;
 }
 
 .xfce4-panel button:checked label, .xfce4-panel button:checked image {
@@ -70,11 +70,11 @@
 
 .xfce4-panel button:active {
   background-color: rgba(255, 255, 255, 0.12);
-  color: #FAFBFC;
+  color: #ECEFF4;
 }
 
 #clock-button {
-  color: #FAFBFC;
+  color: #ECEFF4;
 }
 
 entry, spinbutton:not(.vertical), entry.flat, spinbutton.flat:not(.vertical), .linked>entry, .linked.vertical>entry, combobox, combobox entry.combo, #MozillaGtkWidget.background>widget>entry {
