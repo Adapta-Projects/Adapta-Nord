@@ -24,6 +24,7 @@ Nord version of <a href="https://github.com/Joshaby/Adapta-Colorpack">Adapta Col
  - Frost Blue 4
  - Aurora Green
  - Aurora Yellow
+ - Aurora Orange
 
 ## Instalation
 
