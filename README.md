@@ -19,7 +19,7 @@ Nord version of <a href="https://github.com/Joshaby/Adapta-Colorpack">Adapta Col
  - Budgie
  - LXDE
 
-## Available colors (in light and nokto versions)
+## Available colors (In normal, nokto, eta and nokto-eta versions)
 
  - Frost Blue 4
  - Aurora Green
